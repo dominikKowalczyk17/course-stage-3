@@ -21,7 +21,7 @@ export default function Input({ onChange, userInput }) {
             value={userInput.annualInvestment}
             onChange={
               (event) =>
-                onChange("annualInvestment", Number(event.target.value)) //this yields string
+                onChange("annualInvestment", Number(event.target.value)) //this yields a string, and when adding it only concats the strings
             }
           />
         </p>
