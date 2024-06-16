@@ -19,6 +19,13 @@ body {
   margin: 3rem auto;
 }
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.transition-max-height {
+  transition: max-height 0.5s ease-out;
+}
 
 #header img {
   width: 5rem;
